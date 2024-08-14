@@ -6,19 +6,19 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: " Qual dos animais é um mamífero ?",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "Baleia ",
                 afirmacao: [
-                    "afirmacao 1",
+                    "Se essa foi a apção escolhida , esta correto",
                     "afirmacao 2"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "Cavalo marinho",
                 afirmacao: [
-                    "afirmacao 1",
+                    "Se essa foi a opção , esta incorreta",
                     "afirmacao 2"
                     ]
             }           
@@ -26,7 +26,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: " Qual é o unico mamífero que voa ?",
         alternativas: [
             {
                 texto:"Alternativa 1 da pergunta 2",
@@ -45,7 +45,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Qual é o mamífero que bota ovo ?",
         alternativas: [
             {
                 texto:"Alternativa 1 da pergunta 3",
