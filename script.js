@@ -53,6 +53,7 @@ function JogarNovamente {
     caixaResultado.classList.remover("mostrar");
     mostraPergunta();
 }
+  
 
 function substituiNome() {
     for ( const pergunta of perguntas ){
