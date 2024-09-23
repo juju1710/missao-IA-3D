@@ -4,14 +4,14 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Baleia ",
-                afirmacao 1: [
+                afirmacao: [
                     "Se essa foi a apção escolhida , esta correto",
                     "afirmacao 2"
                     ]
             },
             {
                 texto: "Cavalo marinho",
-                afirmacao 2: [
+                afirmacao: [
                     "Se essa foi a opção , esta incorreta",
                     "afirmacao 2"
                     ]
