@@ -7,6 +7,8 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
+const botaoIniciar = document.querySelector (".iniciar-btn");
+const telaInicial = document.querySelector (".tela-inicial");
 
 let atual = 0; 
 let perguntaAtual;
@@ -35,31 +37,20 @@ function mostraAlternativas(){
 function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacoes + " ";
-    atual++;
+    if(opcaoSelecionada.proxima !== undefined) {
+        atual = opcaoSelecionada.proxima;
+    }else {
+        mostraResultado();
+        return;
+    }
     mostraPergunta();
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent =  `Em 2049, $(nome)`;
+    caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-    caixaResultado.classlist.add("mostrar");
-    botaoJogarNovamente.addEventListener("click" , jogarNovamente);
 }
 
-function JogarNovamente {
-    atual = 0;
-    historiaFinal = "";
-    caixaResultado.classList.remover("mostrar");
-    mostraPergunta();
-}
-  
+mostraPergunta();
 
-function substituiNome() {
-    for ( const pergunta of perguntas ){
-        pergunta.enunciado = pergunta.enunciado.replace(/você / g, nome);
-    }
-}
-
-mostraPergunta(); 
-mostraPergunta(); 
