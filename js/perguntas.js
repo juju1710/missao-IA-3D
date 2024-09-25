@@ -6,8 +6,10 @@ const perguntas = [
                 texto: "Baleia ",
                 afirmacao: [
                     "Se essa foi a apção escolhida , esta correto",
-                    "afirmacao 2"
-                    ]
+                    ""
+                ]
+                proxima: 1,
+                    
             },
             {
                 texto: "Cavalo marinho",
@@ -15,6 +17,7 @@ const perguntas = [
                     "Se essa foi a opção , esta incorreta",
                     "afirmacao 2"
                     ]
+                proxima: 2,    
             }           
             
         ]
