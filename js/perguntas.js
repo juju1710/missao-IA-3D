@@ -1,68 +1,115 @@
 const perguntas = [
     {
-        enunciado: " Qual dos animais é um mamífero ?",
+        enunciado: "Qual dos animais marinhos é um mamífero?",
         alternativas: [
             {
-                texto: "Baleia ",
+                texto: "Baleia",
                 afirmacao: [
-                    "Se essa foi a apção escolhida , esta correto",
-                    "As baleias assim como todos os mamíferos, possuem sangue quente e respiram pelos pulmões."
-                ],
-            proxima: 1,
-                    
+                    "Se você escolheu essa opçâo, está correto.",
+                    "Felizmente essa é a resposta certa."
+                    ],
+                proxima: 1,
             },
             {
                 texto: "Cavalo marinho",
                 afirmacao: [
-                    "Se essa foi a opção , esta incorreta",
-                    "o cavalo marinho é um peixe e não um mamífero."
+                    "Se essa foi a opçâo escolhida, está incorreta.",
+                    "Infelizmente você não escolheu a resposta correta."
                     ],
-                proxima: 2,    
-            }           
-            
+                proxima: 1,
+            },
+           
         ]
     },
     {
-        enunciado: " Qual é o unico mamífero que voa ?",
+        enunciado: "Qual é o único mamífero que voa?",
         alternativas: [
             {
                 texto:"Morcego",
                 afirmacao: [
-                    "você está correto",
-                    "Os morcegos são mamíferos voadores que fazem parte da fauna brasileira"
+                    "Isso! Essa resposta está correta.",
+                    "Você acertou!"
                     ],
-                    proxima: 3,
+                proxima: 2,
             },
             {
                 texto: "Avestruz",
                 afirmacao: [
-                    "vocẽ está errado",
-                    "A avestruz não possui a capacidade de voar que é compensada pela sua habilidade de correr"
+                    "Infelizmente você escolheu a resposta errada desta vez.",
+                    "Essa não é a resposta certa."
                     ],
-                    proxima: 4,
+                proxima: 2,
             }
         ]
     },
     {
-        enunciado: "Qual é o mamífero que bota ovo ?",
+        enunciado: "Qual é o mamífero que bota ovo?",
         alternativas: [
             {
-                texto:"Ornitorrinco",
+                texto: "Ornitorrinco",
                 afirmacao: [
-                    "parabéns está correto",
-                    "As fêmeas costumam botar de 1 a 3 ovos cerca de duas semanas depois do acasalamento"
+                    "Você acertou.",
+                    "Está é a alternativa certa."
                     ],
-                    proxima: 5,
+                proxima: 3,
             },
             {
-                texto:"Canguru",
+                texto: "Canguru",
                 afirmacao: [
-                    "desculpe, mais está encorreto ",
-                    "O canguru é um marsupial: nome dado a bichos em que a fêmea possui uma bolsa (marsúpio) para abrigar o filhote"
+                    "Infelizmente essa não é a alternativa correta.",
+                    "Infelizmente dessa vez você não escolheu a alternativa correta "
                     ],
-                    proxima: 6,
-            }
-            
+                    proxima: 3,
+            },
+           
         ]
     },
+    {
+        enunciado: "O sapo usa sua língua para capturar suas presas?",
+        alternativas: [
+            {
+                texto: "Sim",
+                afirmacao: [
+                    "Se você escolheu essa opçâo, está correto.",
+                    "Felizmente essa é a resposta certa."
+                    ],
+                proxima: 4,
+            },
+            {
+                texto: "Não",
+                afirmacao: [
+                    "Se essa foi a opçâo escolhida, está incorreta.",
+                    "Infelizmente você não escolheu a resposta correta."
+                    ],
+                proxima: 4,
+            },
+           
+        ]
+    },
+    {
+        enunciado: "Qual é o animal mais rápido, guepardo ou lince?",
+        alternativas: [
+            {
+                texto: "Guepardo",
+                afirmacao: [
+                    "Se você escolheu essa opçâo, está correto.",
+                    "Felizmente essa é a resposta certa."
+                    ],
+                proxima: 5,
+            },
+            {
+                texto: "Lince",
+                afirmacao: [
+                    "Se essa foi a opçâo escolhida, está incorreta.",
+                    "Infelizmente você não escolheu a resposta correta."
+                    ],
+                proxima: 5,
+            },
+           
+        ]
+    },
+   
 ];
+
+
+
